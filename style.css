@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-image: url(images/cross_top.png);
+    background-repeat: no-repeat;
+    height: 120vh;
+    background-color: #11aeef;
+
+}
+
+
+header ul li {
+    display: inline-block;
+
+}
+
+header ul {
+    float: right;
+
+
+}
+
+nav {
+    padding: 40px;
+}
+
+nav button {
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+
+}
+
+header li a {
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-size: 1.5em;
+
+
+}
+
+.section1 {
+    padding: 30px;
+    margin-top: 100px;
+    color: white;
+
+}
+
+.banniere-desc {
+    width: 40%;
+    padding-top: 40px;
+    margin-left: 58px;
+    margin-top: -70px;
+}
+
+.banniere-desc h1 {
+    font-size: 4.5em;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.banniere-desc p {
+    font-size: 1.3em;
+    padding-bottom: 20px;
+
+}
+
+.banniere-desc button {
+    border-radius: 30px;
+    padding: 15px 40px;
+    border: 4px solid white;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+.banniere-img img {
+    width: 600px;
+    margin-left: 50px;
+    margin-top: -70px;
+
+
+}
+
+.banniere-desc,
+.banniere-img {
+    display: inline-block;
+    vertical-align: top;
+
+}
