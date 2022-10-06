@@ -147,4 +147,96 @@ header li a {
     width: 90%;
     margin: auto;
 }
+.choose-us{
+    height: 70vh;
+} 
+.choose-us h2{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+.choose-us h2::after{
+    content: "Choose Us";
+    color: #11aeef;
+}
+.background-chooseus{
+    background-image: url(images/why.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 60%;
+    padding: 80px;
+    margin: auto; 
+}
+.left-container{
+    width: 23%;
+}
+.right-container{
+    width: 75%;
+    background-color: white;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+}
+.right-container h3{
+    color: #11aeef;
+    margin-top: 16px;
+    font-size: 28px;
+}
+.right-container p{
+    font-size: 20px;
+    line-height: 1.5;
+    width: 80%;
+    margin: 30px auto;
+    font-weight: 500;
+}
+.left-container, .right-container{
+    display: inline-block;
+}
+.left-container {
+    vertical-align: top;
+    margin-right: -4px;
+}
+.left-container ul li{
+    list-style: none;
+    padding: 50px auto 30px auto;
+    padding-bottom: 30px !important;
+    padding-top: 28px !important;
+    margin-top: 10px;
     
+}
+.left-container ul li a{
+    color: black;
+    font-size: 28px;
+    text-decoration: none;
+    padding-top: 20px;
+   
+}
+.left-container ul .passive:hover{
+    background-color: black;
+    color: white;
+}
+.left-container ul .passive:hover a{
+   
+    color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+#active{
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+
+
+}
+#active a{
+    color: white;
+
+}
