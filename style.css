@@ -74,7 +74,7 @@ header li a {
 
 }
 
-.banniere-desc button {
+.banniere-desc button{
     border-radius: 40px;
     padding: 20px 50px;
     border: 4px solid white;
@@ -98,3 +98,53 @@ header li a {
     vertical-align: top;
 
 }
+
+/* section about */
+
+.about-image{
+    display: inline-block;
+    width: 40%;
+}
+.about-image img{
+    width: 100%;
+}
+.about-desc{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin-left: 3%;
+}
+.section2{
+    padding: 100px 0px;
+    background-color: rgba(128, 128, 128, 0.051);
+}
+.about-desc h1::after{
+    content: "Software";
+    color: #11aeef;
+}
+.about-desc h1{
+    font-size: 60px;
+}
+.about-desc p{
+    font-size: 20px;
+    line-height: 2;
+    margin: 40px 0px;
+}
+.about-desc button{
+    border-radius: 50px;
+    border: 4px solid #11aeef;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    padding: 15px 40px;
+    background-color: transparent;
+}
+.about-desc button:hover{
+    background-color: #11aeef;
+    color: white;
+}
+.about{
+    width: 90%;
+    margin: auto;
+}
+    
