@@ -283,3 +283,57 @@ header li a {
         padding: 15px 40px;
         background-color: transparent;
 }
+.contact h1 {
+    font-size: 3em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.contact h1::after {
+    content: "a call back";
+    color: white;
+}
+.form {
+    display: inline-block;
+    width: 48%;  
+}
+.form input{
+    display: block;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    width: 400px;
+}
+.form textarea {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 25px;
+    margin-bottom: 15px;
+    width: 400px;
+}
+.form button {
+    display: block;
+    padding: 15px 50px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+}
+.map {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+.map iframe {
+    height: 300px;
+    width: 100%;
+}
+.center {
+    width: 80%;
+    margin: auto;
+}
+.contact {
+    background-color: #11aeef;
+}
