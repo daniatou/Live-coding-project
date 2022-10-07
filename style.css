@@ -86,8 +86,8 @@ header li a {
 
 .banniere-img img {
     width: 700px;
-    margin-top: -70px;
-    margin-left: 15px;
+    margin-top: -80px;
+    margin-left: 25%;
 
 
 }
@@ -336,4 +336,67 @@ header li a {
 }
 .contact {
     background-color: #11aeef;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(23, 23, 23);
+    padding-top: 40px;
+}
+.footer-container{
+    width: 75%;
+    margin: 0 auto;
+}
+.footer-div{
+    width: 22%;
+    display: inline-block;
+    margin-right: 2%;
+    vertical-align: top;
+}
+.footer-div h3{
+    color: white;
+    margin-bottom: 30px;
+}
+.footer-div li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.footer-div li a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer-div i{
+    margin-right: 10px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+.footer-div p{
+    color: gray;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.footer-div input{
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.footer-div button{
+    padding: 10px 25px;
+    color: white;
+    background-color: #11aeef;
+    border: none;
+    border-radius: 5px;
+}
+
+.copyright{
+    background-color: #11aeef;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin-top: 20px;
 }
